@@ -25,6 +25,30 @@ nav[role="navigation"] ul li, .contact ul li {
 
 header[role="banner"]{
     margin: 30px 0 100px 0;
+    @media (min-width: 700px) {
+        float: left;
+        width: 35%;
+    }
+}
+
+.banner-photo {
+    text-align: center;   
+}
+
+main[role="main"] {
+    @media (min-width: 700px) {
+        float: right;
+        width: 60%;
+    }
+
+}
+
+footer[role="contentinfo"] {
+    @media (min-width: 700px) {
+        float: left;
+        width: 100%;
+    }
+
 }
 
 .contact svg {
@@ -42,6 +66,3 @@ header[role="banner"]{
     transition: fill 400ms linear;
 }
 
-.banner-photo {
-    text-align: center;   
-}
